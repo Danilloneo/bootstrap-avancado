@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .extensao-header {
     display: none;
 }
@@ -537,7 +538,7 @@ header .btn-login2 {
         align-items: center;
         text-align: center;
         color: #0000008c;
-        margin-left: 20px;
+        margin-left: -20px;
         width: 100%;
         font-weight: bold;
         padding-bottom: 30px;
@@ -582,9 +583,13 @@ header .btn-login2 {
         float: right;
         margin-left: -120px;
         margin-bottom: -200px;
+        list-style-type: none;
     }
 
+
+
     .svg-brasil {
+    float: both;
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -848,7 +853,7 @@ header .btn-login2 {
         align-items: center;
         text-align: center;
         color: #0000008c;
-        margin-left: 20px;
+        margin-left: -20px;
         width: 100%;
         font-weight: bold;
         padding-bottom: 30px;
