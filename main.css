@@ -1,0 +1,944 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.extensao-header {
+    display: none;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(7, 7, 94);
+    z-index: 1;
+    position: absolute;
+} 
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .btn-primary {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+header #btn1 {
+    height: 40px;
+    margin-top: 25px;
+}
+
+header #btn2 {
+    height: 40px;
+    margin-top: 25px;
+}
+
+header #btn3 {
+    height: 40px;
+    margin-top: 25px;
+}
+
+header #btn1:hover, #btn2:hover, #btn3:hover {
+    background-color: rgba(197, 135, 254, 0.289);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+header #btn1:focus, #btn2:focus, #btn3:focus {
+    background-color: #fff;
+    color: rgb(7, 7, 94);
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+
+.logo {
+    padding: 20px;
+}
+
+.logo-and-btn {
+    display: flex;
+    max-width: 900px;
+}
+
+.banner {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(94, 26, 158);
+    height: 600px;
+    border-radius: 20px;
+}
+
+.banner img {
+    margin-top: 50px;
+    width: 800px;
+}
+
+.dropdown-menu {
+    left: 0;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    position: absolute;
+
+}
+
+.dropdown-item a {
+    font-size: 17px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(10, 7, 13, 0.503);
+}
+
+.dropdown-menu li {
+    margin: 10px 0;
+}
+
+
+.dropdown-menu li img {
+    padding-right: 20px;
+}
+
+
+.nav {
+    margin-top: 150px;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.nav-tabs i {
+    width: 20px;
+    display: inline-flex;
+    position: relative;
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: 5px solid #fe0707;
+}
+
+
+.tab-content {
+    float: left;
+    background-color: #fff;
+    width: 900px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+
+#primeiro-elemento .tab-content .conteudo-tab-1 {
+    background-image: url('./imgs/menu1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+#primeiro-elemento .tab-content .conteudo-tab-2 {
+    background-image: url('./imgs/nenu2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+#primeiro-elemento .tab-content .conteudo-tab-3 {
+    background-image: url('./imgs/menu3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+#primeiro-elemento .tab-content .conteudo-tab-4 {
+    background-image: url('./imgs/menu4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+#primeiro-elemento .tab-content .conteudo-tab-5 {
+    background-image: url('./imgs/menu5.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+#primeiro-elemento .tab-content .conteudo-tab-6 {
+    background-image: url('./imgs/menu6.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    margin-top: -20px;
+}
+
+.banner .container {
+    width: 1000px;
+}
+
+.nav-link.active {
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.nav-link.active:focus {
+    border-bottom: 2px solid #fe0707;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#primeiro-elemento {
+    z-index: 0;
+}
+
+.btns-header-2 ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.links-header  {
+    color: #fff;
+    margin-right: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.links-header:hover {
+    text-decoration: underline;
+}
+
+.btns-header-2 button {
+    border-radius: 300px;
+    background-color: rgb(94, 26, 158);
+    border: none;
+    padding: 0px 10px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: -8px;
+}
+
+.btns-header-2 li button:hover {
+    border: solid 1px #ffff;
+}
+
+.btns-header-2 svg {
+    height: 20px;
+}
+
+.btns-header-2 .svg-brasil {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    background-image: url('./imgs/brasil-icon.png ');
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+}
+
+#segundo-elemento .container {
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    max-width: 950px;
+    margin-top: 50px;
+}
+
+#segundo-elemento .dropdown-toggle::after {
+    /* Código Unicode para a seta para a direita */
+    /* Fonte de ícones do Bootstrap */
+   transform: rotate(270deg);
+   float: right;
+   margin-left: 20px;
+   font-size: 20px;
+}
+
+
+#segundo-elemento .dropdown-toggle:hover::after {
+    transition: transform 1s;
+    transform: translateX(-10px) rotate(270deg);
+}
+
+#segundo-elemento button {
+    align-items: center;
+    padding-top: 30px;
+    display: flex;
+    width: 210px;
+    height: 80px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    border: solid 1px #ccc;
+    margin-top: 120px;
+    text-align: center;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.612);
+    box-sizing: border-box;
+    margin-right: 30px;
+    padding: 20px 4px;
+}
+
+#segundo-elemento button img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.textodrop {
+    text-wrap: wrap;
+    max-width: 150px;
+}
+
+#terceiro-elemento h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(7, 7, 94);
+}
+
+#terceiro-elemento .carousel-caption h2 {
+    color: #fff;
+    text-shadow: #0000;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F;
+    background-color: #0000009d;
+    border-radius: 10px;
+}
+
+#terceiro-elemento .carousel-indicators button {
+    background-color: rgb(248, 11, 11);
+}
+
+#terceiro-elemento .carousel-indicators button.active {
+    background-color: #fff;
+}
+
+#terceiro-elemento .carousel-control-prev span {
+    background-color: #0b0303b6;
+    border-radius: 300px;
+}
+
+#terceiro-elemento .carousel-control-next span {
+    background-color: #0b0303b6;
+    border-radius: 300px;
+}
+
+#quarto-elemento h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#quarto-elemento .card {
+    margin-bottom: 40px;
+}
+
+#quarto-elemento .card a {
+    text-align: center;
+    border-radius: 200px;
+    font-weight: 100;
+    background-color: rgb(239, 255, 9);
+    border: none;
+    height: 30px;
+    padding: 2px 10px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#quarto-elemento .card .btn-primary {
+    font-weight: bold;
+    background-color: rgb(116, 28, 123);
+}
+
+#quarto-elemento .preco-destino {
+    font-size: 30px;
+}
+
+#elemento-final  {
+    margin: 0 auto;
+    height: 200px;
+    background-color: rgb(7, 7, 94);
+}
+
+#elemento-final footer {
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    display: none;
+}
+
+.menu-toggle span {
+    background-color: white;
+    display: none;
+    height: 3px;
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    display: none;
+    background-color: #333;
+    padding: 15px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+}
+
+.navbar a {
+    display: none;
+    background-color: #fff;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+header .btn-login2 {
+    display: none;
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .extensao-header {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        background-color: rgb(7, 7, 94);
+        z-index: 1;
+        position: relative;
+    }   
+
+    header .container {
+        display: flex;
+    }
+
+    header .logo-and-btn {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header .btn-primary {
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    header .btn-login2 {
+        display: block;
+        width: 150px;
+        height: 30px;
+        border-radius: 300px;
+        margin-top: 25px;
+        border: none;
+        background-color: rgb(94, 26, 158);
+        color: #fff;
+        font-weight: bold;
+        padding: 0 5px;
+        margin-right: 8px;
+    }
+
+    header .btn-login2:hover {
+        border: solid 1px #ffff;
+    }
+    
+    header #btn1, header #btn2, header #btn3, .btns-header-2 nav {
+        display: none;
+    }
+    
+    header #btn1:hover, #btn2:hover, #btn3:hover {
+        background-color: rgba(197, 135, 254, 0.289);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+    }
+    
+    header #btn1:focus, #btn2:focus, #btn3:focus {
+        background-color: #fff;
+        color: rgb(7, 7, 94);
+        border-radius: 15px;
+        font-weight: bold;
+    
+    }
+
+    .menu-toggle {
+        position: relative;
+        display: block;
+        align-items: center;
+        margin-top: 30px;
+        margin-top: 20px;
+        padding: 0;
+        margin-right: 30px;
+    }
+
+    #mobile-menu ul li {
+        list-style-type: none;
+    }
+
+
+
+    .menu-toggle span {
+        background-color: white;
+        display: block;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+
+    .navbar {
+        z-index: 2;
+        text-align: center;
+        background-color: #fff;
+        padding: 15px;
+        top: 0;
+        left: 0;
+        right: -100%; /* Inicialmente, define o menu fora da tela à direita */
+        width: 100%;
+        height: 1000vh;
+        box-sizing: border-box;
+        transition: right 1000ms  ease; /* Adiciona uma transição suave à posição do menu */
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        margin-top: 100px;
+    }
+
+    .navbar ul li {
+        align-items: center;
+        text-align: center;
+        color: #0000008c;
+        margin-left: 20px;
+        width: 100%;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+
+    .navbar .btn-close {
+        top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        float: right;
+    }
+
+    .navbar img {
+        float: left;
+    }
+
+    .navbar hr {
+        width: 90%;
+    }
+
+    .navbar ul img {
+        margin-right: 8px;
+    }
+
+    .navbar ul .of-voos {
+        margin-left: -3.5px;
+        margin-right: 5px;
+    }
+
+    .navbar ul .cen-ajuda {
+        margin-left: -8px;
+        margin-right: 1px;
+    }
+
+    .navbar .adjust {
+        margin-left: -35px;
+        font-weight: 600;
+    }
+
+    .navbar .adjust img {
+        float: right;
+        margin-left: -120px;
+        margin-bottom: -200px;
+    }
+
+    .svg-brasil {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    background-image: url('./imgs/brasil-icon.png ');
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+    }
+
+    .navbar a {
+        font-size: 18px;
+    }
+
+    /*Conteudo primeiro elemento*/
+    .nav-tabs {
+        margin-top: 20px;
+        width: 400px;
+    }
+
+    #primeiro-elemento .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    #primeiro-elemento .tab-content {
+        height: 300px;
+        width: 430px;
+    }
+
+    #primeiro-elemento .tab-pane.active {
+        width: 300px;
+    }
+
+    #primeiro-elemento .tab-content .conteudo-tab-1 {
+        background-image: url('./imgs/menu1-1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+    }
+    
+    #primeiro-elemento .tab-content .conteudo-tab-2 {
+        background-image: url('./imgs/menu2-2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    #primeiro-elemento .tab-content .conteudo-tab-3 {
+        background-image: url('./imgs/menu3-3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+    }
+    #primeiro-elemento .tab-content .conteudo-tab-4 {
+        background-image: url('./imgs/menu4-4.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+    }
+    #primeiro-elemento .tab-content .conteudo-tab-5 {
+        background-image: url('./imgs/menu-5-5.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+    }
+    
+    #primeiro-elemento .tab-content .conteudo-tab-6 {
+        background-image: url('./imgs/menu6-6.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+        margin-top: -20px;
+    }
+    
+
+
+    .banner img {
+        width: 100%;
+        display: block;
+        margin-top: -160px;
+    }
+
+
+    #segundo-elemento .container {
+        margin: 5 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Duas colunas com largura igual */
+        grid-gap: 20px; /* Espaço entre os itens */
+    }
+
+    #segundo-elemento img, #segundo-elemento .textodrop {
+        margin: 0 auto;
+    }
+
+    #segundo-elemento #dropdownButton {
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 100%;
+    }
+
+
+    #carousel {
+        z-index: 0;
+    }
+
+    #quarto-elemento {
+        width: 100%;
+    }
+
+
+    #quarto-elemento .container .row {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+
+    #quarto-elemento .container .card {
+        width: 56vh;
+    }
+
+}
+
+
+@media screen and (min-width:641px) and (max-width: 1224px) {
+
+    header {
+        width: 100%;
+        height: auto;
+        background-color: rgb(7, 7, 94);
+        z-index: 1;
+        position: relative;
+    }   
+
+    header .container {
+        display: flex;
+    }
+
+    header .logo-and-btn {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header .btn-primary {
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    header .btn-login2 {
+        display: block;
+        width: 150px;
+        height: 30px;
+        border-radius: 300px;
+        margin-top: 25px;
+        border: none;
+        background-color: rgb(94, 26, 158);
+        color: #fff;
+        font-weight: bold;
+        padding: 0 5px;
+        margin-right: 8px;
+    }
+
+    header .btn-login2:hover {
+        border: solid 1px #ffff;
+    }
+    
+    header #btn1, header #btn2, header #btn3, .btns-header-2 nav {
+        display: none;
+    }
+    
+    header #btn1:hover, #btn2:hover, #btn3:hover {
+        background-color: rgba(197, 135, 254, 0.289);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+    }
+    
+    header #btn1:focus, #btn2:focus, #btn3:focus {
+        background-color: #fff;
+        color: rgb(7, 7, 94);
+        border-radius: 15px;
+        font-weight: bold;
+    
+    }
+
+    .extensao-header {
+        display: block;
+        width: 100%;
+        height: 200px;
+        background-color: rgb(7, 7, 94);
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .extensao-header hr {
+        padding: 0;
+        margin: 0;
+        color: rgb(255, 255, 255);
+    }
+    
+    .extensao-header h6 {
+        font-style: italic;
+        padding: 20px;
+        color: #ffff;
+    }
+
+    .extensao-header p {
+        color: #ffff;
+        padding-left: 20px;
+        }
+
+    .menu-toggle {
+        position: relative;
+        display: block;
+        align-items: center;
+        margin-top: 30px;
+        margin-top: 20px;
+        padding: 0;
+        margin-right: 30px;
+    }
+
+    #mobile-menu ul li {
+        list-style-type: none;
+    }
+
+
+
+    .menu-toggle span {
+        background-color: white;
+        display: block;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+
+    .navbar {
+        z-index: 2;
+        text-align: center;
+        background-color: #fff;
+        padding: 15px;
+        top: 0;
+        left: 0;
+        right: -100%; /* Inicialmente, define o menu fora da tela à direita */
+        width: 100%;
+        height: 1000vh;
+        box-sizing: border-box;
+        transition: right 1000ms  ease; /* Adiciona uma transição suave à posição do menu */
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        margin-top: 100px;
+    }
+
+    .navbar ul li {
+        align-items: center;
+        text-align: center;
+        color: #0000008c;
+        margin-left: 20px;
+        width: 100%;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+
+    .navbar .btn-close {
+        top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        float: right;
+    }
+
+    .navbar img {
+        float: left;
+    }
+
+    .navbar hr {
+        width: 90%;
+    }
+
+    .navbar ul img {
+        margin-right: 8px;
+    }
+
+    .navbar ul .of-voos {
+        margin-left: -3.5px;
+        margin-right: 5px;
+    }
+
+    .navbar ul .cen-ajuda {
+        margin-left: -8px;
+        margin-right: 1px;
+    }
+
+    .navbar .adjust {
+        margin-left: -35px;
+        font-weight: 600;
+    }
+
+    .navbar .adjust img {
+        float: right;
+        margin-left: -120px;
+        margin-bottom: -200px;
+    }
+
+    .svg-brasil {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    background-image: url('./imgs/brasil-icon.png ');
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+    }
+
+    .navbar a {
+        font-size: 18px;
+    }
+
+    /*Conteudo primeiro elemento*/
+    .nav-tabs {
+        margin-top: 20px;
+        width: 400px;
+    }
+
+    .carousel {
+        z-index: 0;
+    }
+
+    #primeiro-elemento .banner, #primeiro-elemento .nav-tabs, #primeiro-elemento .tab-content {
+        display: none;
+    }
+
+    #segundo-elemento .container {
+        padding: 0 150px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas com largura igual */
+        grid-gap: 20px; /* Espaço entre os itens */
+    }
+
+    #quarto-elemento .container .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas com largura igual */
+        grid-gap: 50px; /* Espaço entre os itens */
+    }
+
+    #quarto-elemento .container .card {
+        width: 40vh;
+    }
+}
